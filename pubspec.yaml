@@ -1,0 +1,152 @@
+name: micrositio_cco
+description: CCO.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.1 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter 
+
+
+  cupertino_icons: ^1.0.2
+  open_file: ^3.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+  date_time_picker: ^2.1.0
+  url_launcher: ^6.0.3
+  flutter_svg_provider: ^1.0.3
+  carousel_slider: ^4.0.0
+  provider: ^6.0.2
+  dio: ^4.0.6
+  http_parser: ^4.0.0
+  responsive_grid_list: ^1.3.0
+  just_audio: ^0.9.20
+  achievement_view: ^1.0.0
+  load: ^1.0.0
+  firebase_storage: ^11.0.11
+  custom_searchable_dropdown: ^2.1.1
+  roundcheckbox: ^2.0.4+1
+  file_picker: ^4.5.1
+  syncfusion_flutter_pdf: ^20.2.40
+  syncfusion_flutter_pdfviewer: ^20.2.40-beta
+  universal_html: ^2.0.8
+  syncfusion_flutter_datagrid: ^20.2.40
+  flutter_smart_dialog: ^4.5.3+7
+  syncfusion_flutter_core: ^20.2.40
+  chips_choice_null_safety: ^2.0.6
+  cooky: ^2.0.0
+  vrouter: ^1.2.1
+  routemaster: ^1.0.1
+  firebase_core: ^2.5.0
+  youtube_player_iframe: ^4.0.4
+  splash_view: ^2.0.1
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/logos/Logo_cco.gif
+    - assets/images/splash.png
+    - assets/images/listones.png
+    - assets/images/logo_cco.png
+    - assets/images/logos_cco_nuevos.png
+    - assets/images/eslogan.png
+    - assets/svg/fondo.svg
+    - assets/svg/cuadros_fondo.svg
+    - assets/images/fondo_inscripciones.jpg
+    - assets/icons/CriteriosCOVID_1.png
+    - assets/icons/CriteriosCOVID_2.png
+    - assets/icons/CriteriosCOVID_3.png
+    - assets/icons/CriteriosCOVID_4.png
+    - assets/icons/CriteriosCOVID_5.png
+    - assets/icons/CriteriosCOVID_6.png
+    - assets/icons/CriteriosCOVID_7.png
+    - assets/icons/CriteriosCOVID_8.png
+    - assets/icons/CriteriosCOVID_9.png
+    - assets/logos/logo_cambio_2.png
+    - assets/logos/logo_cambio.png
+    - assets/logos/Logo_gob2023.png
+    - assets/logos/Logo_cco_2a.gif
+    - assets/logos/LogotipoMIDO.png
+    - assets/logos/pleca_gob_CCO.png
+    - assets/logos/LogoHorizontal_CCO.png
+    - assets/icons/archivo.png
+    - assets/icons/icn_acceso.png
+    - assets/icons/icn_aula.png
+    - assets/icons/icn_curp.png
+    - assets/icons/icn_envio.png
+    - assets/icons/icn_estatus.png
+    - assets/icons/icn_folio.png
+    - assets/icons/icn_guardar.png
+    - assets/icons/icn_observaciones.png
+    - assets/icons/icn_proceso.png
+    - assets/icons/icn_recibo.png
+    - assets/icons/icn_reimpresion.png
+    - assets/icons/icn_usuario.png
+    - assets/svg/apple_podcast.svg
+    - assets/svg/btn_aprobacion.svg
+    - assets/svg/btn_descarga.svg
+    - assets/svg/facebook.svg
+    - assets/svg/google_podcast.svg
+    - assets/svg/instagram.svg
+    - assets/svg/logo_cco_bco.svg
+    - assets/svg/logo_cco.svg
+    - assets/svg/logo_gob.svg
+    - assets/svg/logo_gobVeda.svg
+    - assets/svg/mail.svg
+    - assets/svg/play_podcast_off.svg
+    - assets/svg/play_podcast_on.svg
+    - assets/svg/spotify_podcast.svg
+    - assets/svg/telefono.svg
+    - assets/svg/twitter.svg
+    - assets/svg/youtube.svg
+    - assets/images/cel_comenzar.png
+    - assets/images/pc_comenzar.png
+    - assets/images/archivo.png
+    - assets/images/btn_descarga.png
+    - assets/images/pc_solicitud.png
+    - assets/images/cel_solicitud.png
+    - assets/images/credencial.png
+    - assets/images/Credencial_responsable.png
+    - assets/images/firma.png
+    - assets/images/banner_consulta.png
+    - assets/logos/logo_culturainfantil.png
+    - assets/logos/logo_danza.png
+    - assets/logos/logo_musica.png
+    - assets/logos/logo_teatro.png
+    - assets/logos/logo_alternativos.png
+    - assets/logos/logo_artesplasticas.png
+
+
+  fonts:
+     - family: HelveticaBlack
+       fonts:
+         - asset: assets/fonts/HelveticaNowText-Black.otf
+     - family: HelveticaBold
+       fonts:
+         - asset: assets/fonts/HelveticaNowText-Bold.otf
+     - family: HelveticaLight
+       fonts:
+         - asset: assets/fonts/HelveticaNowText-Light.otf
+     - family: HelveticaMedium
+       fonts:
+         - asset: assets/fonts/HelveticaNowText-Medium.otf
+     - family: HelveticaItalic
+       fonts:
+         - asset: assets/fonts/HelveticaNowText-RegIta.otf
+     - family: HelveticaRegular
+       fonts:
+         - asset: assets/fonts/HelveticaNowText-Regular.otf
